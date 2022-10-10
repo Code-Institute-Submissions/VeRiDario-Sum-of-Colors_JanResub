@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
+    <link rel="icon" href="assets/images/Favicon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Sum Of Colors</title>
+</head>
+<body>
+    <h1 class="headding">
+        <img class="logo" src="assets/images/Logo.png" alt="logo"> Love Math
+    </h1>
+
+    <div class="game-area">
+        
+        <div class="cuestion-area">
+            <span id="color1"></span>
+            <span id="operator">+</span>
+            <span id="color2"></span>
+            <span>=</span>
+            <p class="answer-message">Enter Answer:</p>
+            <input id="answer-box" type="number">
+        </div>
+        <button data-type="submit" class="btn btn--gray" type="number">Submit Answer</button>
+    </div>
+
+    <div class="score-area">
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
