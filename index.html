@@ -13,7 +13,7 @@
 </head>
 <body>
     <h1 class="headder">
-        <img class="logo" src="assets/images/Logo.png" alt="logo"> Love Math
+        <img class="logo" src="assets/images/Logo.png" alt="logo"> Sum of Colors
     </h1>
 
     <div class="game-area">
@@ -23,9 +23,9 @@
             <span id="operator">+</span>
             <div id="color2"></div>
             <span id="equal">=</span>
-            <input id="answer" type="color">
+            <input id="answer" type="color" value="" onchange="return this.style.backgroundColor = this.value">
         </div>
-        <button data-type="submit" class="submit" type="number">Submit Answer</button>
+        <button data-type="button" class="submit" type="number" onclick="submitAnswer()">Submit Answer</button>
     </div>
 
     <div class="score-area">
