@@ -50,4 +50,5 @@ function submitAnswer()
         alert(`Wrong answer!`);
         incrementWrongAnswer();
     }
+
 }
