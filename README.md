@@ -1,6 +1,8 @@
-# Sum-of-Colors
+# Sum of Colors
 
 First project for Code Institute Diploma in Full Stack Software Development
+
+[View the "Sum of Colors" website here on GitHub Pages.](https://veridario.github.io/Sum-of-Colors/)
 
 ## Technologies Used
 
