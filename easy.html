@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+
+    <link rel="icon" href="assets/images/Favicon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Sum Of Colors</title>
+</head>
+<body>
+    <h1 class="headder">
+        <img class="logo" src="assets/images/Logo.png" alt="logo"> Sum of Colors
+    </h1>
+
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="easy.html" class="active">Easy</a>
+            </li>
+            <li>
+                <a href="index.html" class="no-active">Hard</a>
+            </li>    
+        </ul>
+    </nav>
+    
+    <div class="game-area">
+        
+        <div class="sum-area">
+            <div id="color1"></div>
+            <span id="operator">+</span>
+            <div id="color2"></div>
+            <span id="equal">=</span>
+            <input id="answer" type="color" value="" onchange="return this.style.backgroundColor = this.value" list="presets"></label>
+            <datalist id="presets">
+              <option value="#a9007f">Color 1</option>
+              <option value="#f68f04">Color 2</option>
+              <option value="#60de00">Color 3</option>
+              <option value="#c4ef01">Color 4</option>
+              <option value="#3304aa">Color 5</option>
+              <option value="#808080">Color 6</option>
+              <option value="#dd70f0">Color 7</option>
+              <option value="#83bddb">Color 8</option>
+              <option value="#cc024e">Color 9</option>
+              <option value="#038c9e">Color 10</option>
+              <option value="#f36906">Color 11</option>
+              <option value="#daab39">Color 12</option>
+              <option value="#a772de">Color 13</option>
+              <option value="#464322">Color 14</option>
+              <option value="#f74b01">Color 15</option>
+              <option value="#18506f">Color 16</option>
+              <option value="#cb5771">Color 17</option>
+              <option value="#4af58b">Color 18</option>
+              <option value="#daab39">Color 19</option>
+              <option value="#3d1a20">Color 20</option>
+            </datalist>
+        </div>
+        <button data-type="button" class="submit" type="number" onclick="submitAnswer()">Submit Answer</button>
+    </div>
+
+    <div class="score-area">
+        <p class="scores">Correct Answers: <span id="correct">0</span></p>
+        <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+    </div>
+    <script src="assets/JS/scripteasy.js"></script>
+</body>
+</html>
