@@ -2,7 +2,7 @@
 
 First project for Code Institute Diploma in Full Stack Software Development
 
-##Technologies Used
+## Technologies Used
 
 In this project we used some simple HTML5, CSS3 and Javascript to build the project'.
 
@@ -16,7 +16,8 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 2.	The Navigation buttons Font and code change the size of the characters once you point the mouse on them. This is very user-friendly because the user knows exactly where the mouse is pointing and clicking, especially for people having troubles in reading.
 3.	The Navigation is clear and user friendly by leading you to the section you are interested in.
 	
-![Image 3]()
+![Image 1](https://user-images.githubusercontent.com/89994195/196922807-60acf9f8-5208-4289-b1be-a5f84639aa59.png)
+ 
 ### Game Area Hard
 
 *	The difficulty level is hard because is not easy to spot the right color resulting from the mix.
@@ -34,13 +35,6 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 *	In the score area we can find how many times we failed or chose the right answer
 
 ![Image 6](https://user-images.githubusercontent.com/89994195/196920049-406aa63a-c881-4fd7-ab48-b7ac36b40854.png)
-
-### The Teachers Section
-
-*	Three pictures showing the professors of the Academy. When pointing on them with the mouse, the image gets bigger.
-*	Under each picture, the user can find the teacher’s Name and Instrument, together with a little biography.
-
-![Image 7](https://user-images.githubusercontent.com/89994195/186780361-f32e0258-16a7-451e-a16e-1b6d9db0b8b4.png)
 
 ## ***Testing***
 
