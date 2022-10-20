@@ -44,10 +44,6 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 
 ### Validator Testing
 
-* HTML
-  -No errors were returned when passing through the official W3C validator.
-* CSS
-  -No errors were found when passing through the official (Jigsaw) validator.
 * Accesibility
   -I confirmed that thecolors and fonts chosen are easy to read and accesible by running it through lighthouse in devtools.
 
