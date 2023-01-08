@@ -1,3 +1,4 @@
+//Selection of colors for the game
 var gameColors = [['#f4e202','#056ec0'],
         ['#056ec0','#eb0104'],
         ['#f4e202','#60de00'],
@@ -21,14 +22,24 @@ var gameColors = [['#f4e202','#056ec0'],
     ];
 var answerColors = ['#60de00','#a9007f','#c4ef01','#f68f04','#83bddb','#cb5771','#a772de','#3d1a20','#dd70f0','#4af58b','#f36906','#3304aa','#f74b01','#cc024e','#18506f','#038c9e','#464322','#daab39','#77bf7f','#808080'];
 
-// random numeber between 0 - 19
+// random number between 0 - 19
+
 var r = Math.floor(Math.random() * 20);
 
 correctAnswer = answerColors[r];
 document.getElementById('color1').style.backgroundColor = gameColors[r][0] ;
 document.getElementById('color2').style.backgroundColor = gameColors[r][1] ;
 
+// Reload game
+function newGame() {
+    var r = Math.floor(Math.random() * 20);
 
+    correctAnswer = answerColors[r];
+    document.getElementById('color1').style.backgroundColor = gameColors[r][0] ;
+    document.getElementById('color2').style.backgroundColor = gameColors[r][1] ;
+
+}
+// Scores
 function incrementScore() {
     let oldScore = parseInt(document.getElementById("correct").innerText);
     document.getElementById("correct").innerText = ++oldScore;
@@ -38,17 +49,19 @@ function incrementWrongAnswer() {
     let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 }
-
-function submitAnswer()
-{
+function submitAnswer(){
     var answer = document.getElementById('answer').value;
     console.log(answer, correctAnswer)
     if (answer == correctAnswer) {
         alert("Right answer!");
         incrementScore();
+        newGame()
     } else {
         alert(`Wrong answer!`);
         incrementWrongAnswer();
+        newGame()
     }
-
 }
+
+
+
