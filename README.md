@@ -52,7 +52,8 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 * Accesibility
   -I confirmed that the colors and fonts chosen are easy to read and accesible by running it through lighthouse in devtools.
 
-![Image 7](https://user-images.githubusercontent.com/89994195/196921616-b6fec690-0858-48e5-bfab-e2707f912b64.png)
+![Image 7](https://user-images.githubusercontent.com/89994195/211416018-da11412b-c492-40f1-9d62-9980b5f68df9.png)
+
 
 ### Fixed Bugs
 
