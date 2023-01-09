@@ -59,9 +59,14 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 * The game did not uploaded the new color mix options after the wrong or right answer. I added a function able to reload the color mix option.
 
 
-##Deployment
+### Deployment
 
-*	The site was created in Gitpod, deployed to Github directly from the Terminal.
+*The site was created in Gitpod and deployed to GitHub directly from the Terminal.
+*I deployed the site on GitHub pages. The following steps were used to deploy:
+	-In the project repository, navigate to the settings tab.
+	-Select the pages tab from the left hand menu.
+	-Under the source section, in the drop-down menu select the main branch and click save.
+	-Once the page has refreshed a ribbon will display indicating the successful deployment of the site and link to the live page.
 
 ## ***Credits***
 
