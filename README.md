@@ -58,7 +58,7 @@ Sum of colors is a game to guess how the colors mix themselves. It has 2 difficu
 
 ##Deployment
 
-*	The site was created in Gitpot, deployed to Github directly from the Terminal.
+*	The site was created in Gitpod, deployed to Github directly from the Terminal.
 
 ## ***Credits***
 
