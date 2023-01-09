@@ -18,6 +18,17 @@ document.getElementById('color2').style.backgroundColor = randomColor2 ;
 
 var correctAnswer = blendColors(randomColor1, randomColor2,0.5);
 
+//Reload game
+function newGame() {
+    let randomColor1 = '#'+Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('color1').style.backgroundColor = randomColor1 ;
+    
+    let randomColor2 = '#'+Math.floor(Math.random()*16777215).toString(16);
+    document.getElementById('color2').style.backgroundColor = randomColor2 ;
+
+}
+    
+
 function incrementScore() {
     let oldScore = parseInt(document.getElementById("correct").innerText);``````````
     document.getElementById("correct").innerText = ++oldScore;
@@ -34,9 +45,11 @@ function submitAnswer()
     if (answer == correctAnswer) {
         alert("Right answer!");
         incrementScore();
+        newGame();
     } else {
         alert(`Wrong answer!`);
         incrementWrongAnswer();
+        newGame();
     }
 }
 
